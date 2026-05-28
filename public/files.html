@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Files</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-black text-white">
+    <!-- NAVBAR -->
+
+    <div id="navbar"></div>
+
+    <!-- PAGE TITLE -->
+
+    <section class="py-5 text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Your Files</h1>
+
+        <p class="text-secondary">Manage All Uploaded Files</p>
+      </div>
+    </section>
+
+    <!-- SEARCH BAR -->
+
+    <section class="container mb-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <input
+            type="text"
+            class="form-control form-control-lg bg-dark text-white border-0"
+            placeholder="Search Files..."
+            id="searchInput"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FILES GRID -->
+
+    <section class="container">
+      <div class="row g-4" id="filesGrid">
+        <!-- FILE CARD -->
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <div id="footer"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/files.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

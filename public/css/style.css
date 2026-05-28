@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial;
+
+  background: #111;
+  color: white;
+}
+
+/* .container {
+  width: 500px;
+
+  margin: auto;
+
+  margin-top: 80px;
+
+  text-align: center;
+} */
+
+.card {
+  background: #222;
+
+  padding: 30px;
+
+  border-radius: 10px;
+}
+
+input {
+  width: 90%;
+
+  padding: 10px;
+
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+
+  cursor: pointer;
+
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background: #222;
+
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+
+  margin-right: 20px;
+}
+
+.output {
+  background: #222;
+
+  padding: 15px;
+
+  margin-top: 20px;
+
+  min-height: 100px;
+}
+
+/* dashboard */
+
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: #222;
+
+  padding: 15px 30px;
+}
+
+.nav-right a {
+  margin-left: 20px;
+
+  color: white;
+}
+
+.footer {
+  background: #222;
+
+  padding: 15px;
+
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+/* CARDS */
+
+.hero {
+  padding: 80px 20px;
+}
+
+.card {
+  transition: 0.3s;
+
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.card-body {
+  padding: 40px 20px;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card-title {
+  word-break: break-word;
+}
+
+.card-text {
+  word-break: break-word;
+}
+
+.card img {
+  height: 180px;
+
+  object-fit: contain;
+}
+
+.card-body {
+  text-align: center;
+}
+
+h1 {
+  word-break: break-word;
+}
+
+.card-img-top {
+  height: 120px;
+
+  object-fit: contain;
+}

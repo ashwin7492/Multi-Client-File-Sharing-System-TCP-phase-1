@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Upload Files</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="bg-black text-white">
+    <!-- NAVBAR -->
+
+    <div id="navbar"></div>
+
+    <!-- MAIN CONTENT -->
+
+    <section class="py-5 text-center">
+      <div class="container">
+        <h1 class="display-4 fw-bold">Upload Files</h1>
+
+        <p class="text-secondary">Send Files Using Raw TCP Protocol</p>
+      </div>
+    </section>
+
+    <!-- UPLOAD AREA -->
+
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card bg-dark border-0 shadow-lg p-5 text-center">
+            <!-- ICON -->
+
+            <div class="mb-4">
+              <img src="images/upload.png" width="100" alt="upload" />
+            </div>
+
+            <!-- TITLE -->
+
+            <h2 class="fw-bold">Drag & Drop Files</h2>
+
+            <p class="text-secondary">or choose file from your system</p>
+
+            <!-- FILE INPUT -->
+
+            <input
+              type="file"
+              class="form-control bg-black text-white border-secondary mt-4"
+              id="fileInput"
+            />
+
+            <!-- FILE DETAILS -->
+
+            <div class="mt-4" id="fileDetails">
+              <p class="text-secondary">No File Selected</p>
+            </div>
+
+            <!-- BUTTON -->
+
+            <button class="btn btn-light btn-lg mt-4" id="uploadBtn">
+              Upload File
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/upload.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
