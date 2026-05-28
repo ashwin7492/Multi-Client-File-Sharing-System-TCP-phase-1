@@ -1,2 +1,32 @@
-# Multi-Client-File-Sharing-System-TCP-phase-1
-This is a multi client file sharing system where a group of people can save their files and can be accessed by authorized user only.
+# Multi Client File Sharing System (TCP)
+A secure multi-user file sharing system developed using Node.js, Express.js, MongoDB, and TCP socket programming.
+The project demonstrates:
+* TCP socket communication
+* Binary-safe file transfer
+* File upload/download
+* Browser-based preview
+* Live search functionality
+* Owner-based delete authorization
+# Technologies Used
+* Node.js
+* Express.js
+* MongoDB
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* TCP Sockets
+# Features
+* User Authentication
+* File Upload & Download
+* File Preview
+* Search Functionality
+* Dashboard System
+* Multi-user Support
+* Binary-safe Streaming
+# Installation
+npm install
+Start Bridge Server:
+nodemon server.js
+Start TCP Server:
+nodemon tcpserver.js
