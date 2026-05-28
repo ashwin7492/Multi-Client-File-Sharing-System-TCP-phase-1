@@ -26,8 +26,8 @@ The project demonstrates:
 * Multi-user Support
 * Binary-safe Streaming
 # Installation
-*npm install
-*Start Bridge Server:
+* npm install
+* Start Bridge Server:
 nodemon bridge/server.js
-*Start TCP Server:
+* Start TCP Server:
 nodemon server/tcpserver.js
