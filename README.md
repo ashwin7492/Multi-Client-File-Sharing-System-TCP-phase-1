@@ -28,6 +28,6 @@ The project demonstrates:
 # Installation
 * npm install
 * Start Bridge Server:
-nodemon bridge/server.js
+node bridge/server.js
 * Start TCP Server:
-nodemon server/tcpserver.js
+node server/tcpserver.js
