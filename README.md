@@ -16,6 +16,7 @@ The project demonstrates:
 * JavaScript
 * Bootstrap
 * TCP Sockets
+* CORS Middleware
 # Features
 * User Authentication
 * File Upload & Download
@@ -25,8 +26,8 @@ The project demonstrates:
 * Multi-user Support
 * Binary-safe Streaming
 # Installation
-npm install
-Start Bridge Server:
-nodemon server.js
-Start TCP Server:
-nodemon tcpserver.js
+*npm install
+*Start Bridge Server:
+nodemon bridge/server.js
+*Start TCP Server:
+nodemon server/tcpserver.js
