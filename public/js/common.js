@@ -1,4 +1,4 @@
-const SERVER_IP = "10.24.191.138";
+const SERVER_IP = your IP_address;
 // const SERVER_IP = "localhost";
 const baseUrl = `http://${SERVER_IP}:3000`;
 
