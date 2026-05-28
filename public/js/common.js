@@ -1,5 +1,5 @@
-const SERVER_IP = your IP_address;
-// const SERVER_IP = "localhost";
+// const SERVER_IP = your IP_address;
+const SERVER_IP = "localhost";
 const baseUrl = `http://${SERVER_IP}:3000`;
 
 fetch("components/navbar.html")
